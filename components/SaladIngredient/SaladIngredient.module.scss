@@ -1,0 +1,40 @@
+.ingredient {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 20px 10px;
+    border-radius: var(--common-border-radius);
+    background-color: var(--bg-color-primary);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.name {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--theme-color);
+    flex-grow: 1;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.number {
+    color: var(--theme-color);
+}
+
+.button {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

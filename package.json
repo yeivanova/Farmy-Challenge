@@ -1,0 +1,29 @@
+{
+  "name": "farmy-challenge_2023",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "fs.promises": "^0.1.2",
+    "next": "13.4.13",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "sass": "^1.65.1",
+    "styled-components": "^6.0.7"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.0.1"
+  }
+}
